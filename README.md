@@ -674,19 +674,134 @@ This program was developed and tested on the following hardware and OS
 
 # References
 
-## Tagging
+This section contains technical references, academic publications, and supplementary reading materials relevant to the development and underlying concepts of this project.
 
-- ID3 Tags
-  Reference: ID3 tag version 2.4.0 - Main Structure
-  URL: https://id3.org/id3v2.4.0-structure
+**Note:** Not all publications listed below were used directly in the implementation. Some are included as background research into musical structure, perception, emotion, and DJ set programming.
 
-- TagLib
+## 1. Technical References
 
+### Metadata Standards and Tagging
+
+- **ID3v2.4 Specification**
+  - Reference: ID3 tag version 2.4.0 — Main Structure
+  - URL: https://id3.org/id3v2.4.0-structure
+
+- **TagLib**
   - Reference: TagLib API Documentation
+  - URL: https://taglib.org/api/
 
-    URL: https://taglib.org/api/
+### Audio Analysis and Music Information Retrieval
 
-## Further Reading:
+- **Simon Dixon**
+  - *Classification of Dance Music by Periodicity Patterns*
+  - Topic: Rhythmic periodicity and dance music analysis.
+
+- **Bee Suan Ong (2006)**
+  - *Structural Analysis and Segmentation of Music Signals*
+  - Topic: Identification and analysis of musical structure and segmentation.
+
+- **P. Coretto and F. Giordano (2017)**
+  - *Nonparametric Estimation of the Dynamic Range of Music Signals*
+  - Topic: Dynamic range measurement and estimation.
+
+- **Queen Mary University of London**
+  - *Assessing the Alignment of Audio Representations with Timbre Similarity Ratings*
+  - Topic: Timbre representation and perceived sound similarity.
+
+- **University of Rochester (2025)**
+  - *Python Programming for Audio*
+  - Topic: Audio processing and analysis using Python.
+
+---
+
+## 2. Further Reading
+
+The following publications provide additional context for understanding musical expression, emotional perception, musical tension, and listener experience.
+
+These materials are not necessarily part of the implemented audio-analysis pipeline.
+
+### Music and Emotional Perception
+
+- **International Society for Music Information Retrieval (ISMIR 2014)**
+  - *Computational Modeling of Induced Emotion Using GEMS*
+  - Topic: Computational approaches to modelling music-induced emotions.
+
+- **José Fornari and Tuomas Eerola**
+  - *The Pursuit of Happiness in Music: Retrieving Valence with Contextual Music Descriptors*
+  - Topic: Musical valence and computational emotion analysis.
+
+- **Francesca Dillman-Carpentier (2007)**
+  - *Effects of Music on Physiological Arousal: Explorations into Tempo and Genre*
+  - Topic: The relationship between musical tempo, genre, and physiological arousal.
+
+- **William Randall (2026)**
+  - *Regulation of Energy through Music Listening and the Influence of Diurnal Energy Levels*
+  - Topic: Music listening and perceived energy regulation.
+
+- **The Arousal-Mood Theory: Current Research and Limit**
+  - Topic: Psychological theories concerning arousal and mood.
+
+### Musical Tension, Harmony and Structure
+
+- **Llorenç Balsach**
+  - *The Foundations of Harmonic Tensions (The Fundamentals of Harmonic Tensions)*
+  - Topic: Harmonic relationships and musical tension.
+
+- **Johannes Kepler University, Linz, Austria**
+  - *Automatic Estimation of Harmonic Tension by Distributed Representation of Chords*
+  - Topic: Computational estimation of harmonic tension.
+
+- **The Fundamental Parameters of Tension and Release**
+  - Topic: Musical tension, release, and structural progression.
+
+- **School of Psychological Sciences, Birkbeck, University of London (2025)**
+  - *Neural Tracking of Melodic Prediction Is Pre-attentive*
+  - Topic: Neural responses to melodic prediction and expectation.
+
+### Psychology and Listener Experience
+
+- **A Review of the Peak-end Rule in Mental Health Contexts**
+  - Topic: How peak experiences and endings can influence retrospective evaluation.
+
+- **Predictive Processing: The Grand Unifying Theory of the Brain**
+  - Topic: Predictive processing and expectation in human perception.
+
+- **Rhythmic Entrainment and Embodied Cognition**
+  - Topic: Synchronisation between musical rhythm, bodily movement, and perception.
+
+- **The Psychology of Optimal Experience**
+  - Topic: Flow states, attention, and immersive experiences.
+
+### Electronic Dance Music and DJ Culture
+
+- **Luciano Pascual (2026)**
+  - *Technique, Experience and the Social Function of Techno Music: A Comparative Analysis of Theodor Adorno and Robert Fink*
+  - Topic: Techno music, listening experience, and social context.
+
+### Artificial Intelligence and Music Understanding
+
+- **University of Washington (2026)**
+  - *Benchmarking Audio LMs for Musical Structure and Semantic Reasoning*
+  - Topic: Evaluating audio language models for understanding musical structure and semantic information.
+
+---
+
+## 3. Scope of the Research
+
+The research materials above provide context for several concepts relevant to this project:
+
+- **Measurable audio characteristics:** Tempo, loudness, rhythm, timbre, and musical structure.
+- **Musical perception:** How listeners perceive differences in intensity, tension, and musical character.
+- **Emotional interpretation:** How music can evoke different emotional responses across listeners.
+- **DJ set progression:** How musical contrast, tension, release, and changes in intensity may contribute to a listening experience.
+
+This project does not attempt to objectively determine the emotional meaning of a track.
+
+Its purpose is to extract measurable audio characteristics and present them as additional metadata for DJs to interpret.
+
+Custom measurements and composite ratings, including the project's energy score, are implementation-specific definitions and should not be interpreted as universally established scientific measures.
+
+**The program provides the measurements. The DJ determines their musical significance.**
 
 
 
