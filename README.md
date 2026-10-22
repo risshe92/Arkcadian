@@ -805,3 +805,5 @@ Custom measurements and composite ratings, including the project's energy score,
 
 
 
+# DISCLAIMER
+AI was used to assist in some parts of the development of this project.
